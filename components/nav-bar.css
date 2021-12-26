@@ -1,0 +1,26 @@
+.nav{
+	position: fixed;
+	bottom: 0;
+	width: 350px;
+	box-sizing: border-box;
+	margin: 0px auto;
+	background-color: #ff8a3d;
+	padding: 3px 30px;
+	border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav__list{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	text-align: center;
+	
+}
+
+.nav__btn i{
+	margin: 10px 0;
+}
+
+.nav__btn div{
+	font-size: 13px;
+}
