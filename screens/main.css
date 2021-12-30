@@ -67,6 +67,6 @@
 }
 
 #start-form input:hover{
-	animation: moveLogo 1s ease-in-out infinite;
+	animation: moveLogo 1.1s ease-in-out infinite;
 	border: 3px solid #fcfe6a;
 }
