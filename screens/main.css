@@ -70,3 +70,19 @@
 	animation: moveLogo 1.1s ease-in-out infinite;
 	border: 3px solid #fcfe6a;
 }
+
+.main-screen {
+	display: flex;
+  	padding: 20px 15px 70px 16px;
+  	border-top-left-radius: 50px;
+  	border-top-right-radius: 50px;
+  	background-color: floralwhite;
+  	overflow-y: scroll;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+
+.main-screen::-webkit-scrollbar {
+  display: none !important;
+}
+

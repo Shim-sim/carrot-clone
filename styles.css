@@ -9,7 +9,7 @@
 /* Screens */
 @import "screens/main.css";
 @import "screens/screen-header.css";
-@import "screens/main-screen.css";
+@import "screens/product.css";
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
