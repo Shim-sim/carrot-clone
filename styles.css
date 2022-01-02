@@ -9,6 +9,7 @@
 /* Screens */
 @import "screens/main.css";
 @import "screens/screen-header.css";
+@import "screens/alt-screen.css";
 @import "screens/product.css";
 
 body{
@@ -28,7 +29,7 @@ body{
     top: 0;
     height: 100vh;
     background-color: #ff8a3d;
-    box-shadow: 0px 20px 10px rgb(97 97 97);
+    box-shadow: 0px 20px 13px rgb(97 97 97);
 }
 
 .top-fixed_screen {

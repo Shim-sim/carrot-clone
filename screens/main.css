@@ -72,14 +72,13 @@
 }
 
 .main-screen {
-	display: flex;
+	display: block;
   	padding: 20px 15px 70px 16px;
   	border-top-left-radius: 50px;
   	border-top-right-radius: 50px;
   	background-color: floralwhite;
   	overflow-y: scroll;
 	height: 100vh;
-	flex-wrap: wrap;
 }
 
 .main-screen::-webkit-scrollbar {
