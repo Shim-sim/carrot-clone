@@ -5,12 +5,14 @@
 /*Components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/variable.css";
 
 /* Screens */
 @import "screens/main.css";
 @import "screens/screen-header.css";
 @import "screens/alt-screen.css";
 @import "screens/product.css";
+@import "screens/detailed.css";
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;

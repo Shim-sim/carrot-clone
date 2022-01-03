@@ -85,3 +85,17 @@
   display: none !important;
 }
 
+.detailed__main-screen {
+	display: block;
+  	padding: 0px 0px 70px 0px;
+  	border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  	background-color: floralwhite;
+  	overflow-y: scroll;
+	height: 100vh;
+}
+
+.detailed__main-screen::-webkit-scrollbar {
+  display: none !important;
+}
+
