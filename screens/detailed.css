@@ -78,10 +78,14 @@
 .detailed-info__name{
 	font-size: 20px;
 	font-weight: var(--font-bold);
+	margin-bottom: 10px;
 }
 
 .detailed-info__underline{
+	display: inline-block;
 	text-decoration: underline;
+	font-size: 14px;
+	opacity: 0.7;
 }
 
 .detailed-info__main{
@@ -90,7 +94,14 @@
 	opacity: 0.7;
 }
 
+.detailed-info__column:first-child span{
+	font-size: 14px;
+	opacity: 0.7;
+}
+
 .detailed-info__column:nth-child(2){
+	font-size: 15px;
+	font-style: italic;
 	margin-bottom: 50px;
 }
 
