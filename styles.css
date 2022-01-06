@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;1,300&display=swap');
 @import "reset.css";
 
 
@@ -7,6 +7,7 @@
 @import "components/nav-bar.css";
 @import "components/variable.css";
 @import "components/user-components.css";
+@import "components/icon-row.css";
 
 /* Screens */
 @import "screens/main.css";
@@ -14,6 +15,7 @@
 @import "screens/alt-screen.css";
 @import "screens/product.css";
 @import "screens/detailed.css";
+@import "screens/place.css";
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;

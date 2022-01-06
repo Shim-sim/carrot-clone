@@ -85,7 +85,7 @@
   display: none !important;
 }
 
-.detailed__main-screen {
+.alt__main-screen {
 	display: block;
   	padding: 0px 0px 70px 0px;
   	border-top-left-radius: 30px;
@@ -95,7 +95,7 @@
 	height: 100vh;
 }
 
-.detailed__main-screen::-webkit-scrollbar {
+.alt__main-screen::-webkit-scrollbar {
   display: none !important;
 }
 
