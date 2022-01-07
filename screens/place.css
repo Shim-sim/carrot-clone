@@ -17,9 +17,9 @@
 }
 
 .place-header i{
-	position: fixed;
+	position: absolute;
     top: 141px;
-    left: 101px;
+    left: 45px;
     color: #ff8a3d;
 }
 
@@ -100,7 +100,62 @@
 	border-bottom: 4px solid rgba(0, 0, 0, 0.1);
 }
 
+.place-bottom__news{
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
 
+.place-bottom__news-icon{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.place-bottom__news-icon-top{
+	font-family: "monospace";
+    font-size: 13px;
+	font-weight: 600;
+    color: rgb(55, 75, 64);
+    border: none;
+    background-color: #a8d1ff;
+    border-radius: 10px;
+    padding: 4px 8px;
+	margin-left: 16px;
+}
+
+.place-bottom__news-icon-update{
+	font-family: "Source Code Pro";
+    font-size: 13px;
+    border: none;
+    background-color: #ff9683;
+    border-radius: 10px;
+    padding: 4px 8px;
+	margin-left: 16px;
+}
+
+.place-bottom__news-icon img{
+	width: 120px;
+    height: 120px;
+    background-color: #342d2d;
+    border-radius: 25px;
+    margin:5px 10px 5px 15px;
+}
+
+.place-bottom__news-icon-news-title{
+	font-family: "monospace";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.place-bottom__news-icon-news p{
+	font-size: 13px;
+	font-family: "Source Code Pro";
+}
 
 
 
