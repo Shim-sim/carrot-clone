@@ -9,6 +9,7 @@
 @import "components/variable.css";
 @import "components/user-components.css";
 @import "components/icon-row.css";
+@import "components/my-carrot.css";
 
 /* Screens */
 @import "screens/main.css";
