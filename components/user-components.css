@@ -1,7 +1,7 @@
 .user-component{
 	display: flex;
 	align-items: center;
-	margin-bottom: 10px;
+	padding: 4px;
 	flex-wrap: wrap;
 }
 
@@ -11,10 +11,14 @@
 }
 
 .user-component__column img{
-	width: 50px;
-    height: 50px;
+	width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin-right: 15px;
+}
+
+.user-component__text{
+	margin-top: 7px;
 }
 
 .user-component__text span{
@@ -26,11 +30,16 @@
 .user-component__title{
 	display: inline-block;
 	font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .user-component__subtitle{
 	margin-top: 8px;
 	font-size: 15px;
 	opacity: 0.6;
+}
+
+.font-italic{
+	font-size: 13px;
+    font-family: "Source Code Pro";
 }

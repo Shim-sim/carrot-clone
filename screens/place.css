@@ -97,7 +97,7 @@
 }
 
 .place-bottom__weather{
-	border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+	border-bottom: var(--fat-border);
 }
 
 .place-bottom__news{
